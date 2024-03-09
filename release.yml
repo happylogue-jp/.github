@@ -1,0 +1,24 @@
+changelog:
+  exclude:
+    # リリースノートから除外したいユーザー
+    authors:
+      - github-actions # <-- 追加
+  categories:
+    - title: New Features 🎉
+      labels:
+        - "enhancement"
+    - title: Bug Fix 💊
+      labels:
+        - "bug"
+    - title: Refactor ☕️
+      labels:
+        - "refactor"
+    - title: Chore ☕️
+      labels:
+        - "chore"
+    - title: Test ✌️
+      labels:
+        - "test"
+    - title: Other Changes 🛠
+      labels:
+        - "*"
